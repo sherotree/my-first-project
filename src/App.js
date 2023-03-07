@@ -10,6 +10,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
+        <span>现在的环境： {process.env.NODE_ENV}</span>
         <MyButton2 />
         <img src={logo} className="App-logo" alt="logo" />
         <Button type="primary">按钮</Button>
