@@ -4,6 +4,9 @@ import React from 'react';
 import { Button } from 'antd';
 import MyButton from './button';
 import MyButton2 from './my-button2';
+import { Routes, Route, Link } from 'react-router-dom';
+import Home from './view/home';
+import Foo from './view/foo';
 import 'antd/dist/reset.css';
 
 function App() {
@@ -30,6 +33,10 @@ function App() {
         </a>
 
       </header>
+      <Routes>
+        <Route path='/' element={<Home/>}/>
+        <Route path='foo' element={<Foo />}/>
+      </Routes>
     </div>
   );
 }
