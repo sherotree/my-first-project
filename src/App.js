@@ -2,14 +2,18 @@ import logo from './logo.svg';
 import './App.css';
 import React from 'react';
 import { Button } from 'antd';
+import MyButton from './button';
+import MyButton2 from './my-button2';
 import 'antd/dist/reset.css';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
+        <MyButton2 />
         <img src={logo} className="App-logo" alt="logo" />
         <Button type="primary">按钮</Button>
+        <MyButton />
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
