@@ -34,5 +34,9 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "main": "index.js",
+  "repository": "https://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@github.com/sherotree/my-first-project.git",
+  "author": "my-first-project",
+  "license": "MIT"
 }
