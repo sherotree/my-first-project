@@ -17,6 +17,7 @@ function App() {
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
+        <img src={process.env.PUBLIC_URL + 'favicon.ico'} alt='logo'></img>
         <a
           className="App-link"
           href="https://reactjs.org"
