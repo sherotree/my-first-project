@@ -68,3 +68,27 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+# 创建项目
+
+## 1、https://create-react-app.dev/docs/getting-started
+创建项目，npx create-react-app my-app
+
+## 2、https://ant.design/docs/react/use-with-create-react-app-cn
+引入 antd
+
+## 3、https://create-react-app.dev/docs/adding-a-stylesheet、https://create-react-app.dev/docs/adding-a-css-modules-stylesheet
+css、css module
+
+## 4、https://create-react-app.dev/docs/adding-images-fonts-and-files
+引入 svg、png
+
+## 5、https://create-react-app.dev/docs/using-the-public-folder
+public 里的文件
+
+## 6、https://create-react-app.dev/docs/adding-custom-environment-variables/
+环境变量
+
+## 7、https://tailwindcss.com/docs/guides/create-react-app
+引入 tailwind

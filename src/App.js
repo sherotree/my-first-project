@@ -15,6 +15,7 @@ function App() {
         <img src={logo} className="App-logo" alt="logo" />
         <Button type="primary">按钮</Button>
         <MyButton />
+        <div className='text-3xl font-bold red'>tailwind</div>
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
@@ -27,6 +28,7 @@ function App() {
         >
           Learn React
         </a>
+
       </header>
     </div>
   );
